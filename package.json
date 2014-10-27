@@ -1,0 +1,26 @@
+{
+  "name": "css-undoing",
+  "version": "0.0.1",
+  "description": "Rulesets should only ever inherit and add to previous ones, never undo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morishitter/css-undoing/git"
+  },
+  "keywords": [
+    "css",
+    "analize"
+  ],
+  "author": "Masaaki Morishita",
+  "license": "MIT",
+  "dependencies": {
+    "css-parse": "^2.0.0"
+  },
+  "devDependencies": {
+    "tap": "^0.4.13",
+    "colored-tape": "^1.0.1"
+  }
+}
